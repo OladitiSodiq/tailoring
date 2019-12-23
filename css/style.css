@@ -1,0 +1,202 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:100,400,300,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700);
+
+/*-----------------------------------------
+
+Table of Contents:
+
+General Layout Style
+Page Title and Breadcrumb    
+Typography
+Page Loading Progress Bar (PACE)
+Page Top Bar
+Sidebar Main Menu 
+Sidebar User Profile
+Sidebar Fixed Bottom Graphs
+Section or Content Box
+Sortable / Drag n Drop panels(section boxes)
+FORM ELEMENTS
+BUTTONS
+ICHECK (Checkboxes and Radios)
+jQery UI Settings
+Modals
+Alert Notifications
+Dropdown menu
+Datepicker, Daterangepicker,  Datetimepicker & Colorpicker
+Progress Bars
+General Animation Settings
+Tooltips
+Popovers
+Nestable list
+Accordions
+Tabs
+UI Grid
+UI Calendar
+Timeline Centered Style
+Timeline Left Aligned Style
+Image Cropper
+Pricing Tables 
+Tocify
+FAQ
+Portfolio gallery
+jVector Maps
+Tables
+Data Tables
+Form Editors
+DropZone File Uploader (Drag n Drop)
+UI Icons
+Team Members
+Login and Registration Page - Transparent Background Style
+Display Code Wrappers
+List Group
+Breadcrumbs
+Pagination
+Labels
+Badges
+UI AJAX TREE
+Flot Charts
+Easy PIE Charts
+Sparkline Charts
+Page Layout - Sidebar, Chat API toggle interactions
+COLLAPSED MENU
+CHAT API
+CHAT API Windows
+Mailbox
+Rickshaw Graph Charts
+Dashboard
+Notification Widget (Dashboard)
+Error pages 404, 505
+UI Sliders
+Typeahead Suggestions
+UI Lockscreen
+Form Validations
+Form Wizard
+Carousel
+Visibility Animation in Elements (Viewport)
+Widget - Tile Counter
+Widget - Tile Progress widget 
+Navigation Bars
+Search page
+Blogs
+Invoice
+Logo
+Profile Page
+Widget - To Do Task List
+Widget - Social Media
+Widget - Blogs
+Widget - Sparkline Graphs
+Widget - Vector Map
+Widget - Weather
+Widget - User Profile Tile
+Form Spinners
+UI Dropdowns
+Mobile Menu Settings - Since 3.1
+------------------------------------------
+/*----------------------------------------
+  General Layout Style
+------------------------------------------*/
+
+
+/*-----------------------------------------------------------
+    Form Wizard
+----------------------------------------------------------*/
+
+.wizardpills {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.wizardpills ul.form-wizard {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 60px;
+    z-index: 2;
+    width: 100%;
+    padding-right: 15px;
+}
+
+.wizardpills #bar {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    height: 10px;
+    width: 100%;
+    margin: 7px 0;
+    z-index: 1;
+}
+
+.wizardpills .tab-content {
+    position: relative;
+    top: 60px;
+    background-color: #ffffff;
+    border: 0px solid transparent;
+}
+
+.form-wizard li {
+    display: block;
+    float: left;
+    height: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: relative;
+    text-align: right;
+    width: 20%;
+    margin: 0 !important;
+}
+
+.form-wizard li a {
+    float: right;
+    width: 40px;
+    height: 40px;
+    display: block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    right: -20px;
+    background: #f5f5f5;
+    background-image: none;
+    -webkit-box-shadow: inset 0 -1px 2px rgba(150, 150, 150, .1);
+    -moz-box-shadow: inset 0 -1px 2px rgba(150, 150, 150, .1);
+    box-shadow: inset 0 -1px 2px rgba(150, 150, 150, .1);
+    line-height: 27px;
+}
+
+.form-wizard li.complete a {
+    background-color: #3f51b5;
+    font-family: FontAwesome;
+    color: #ffffff;
+    line-height: 27px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.form-wizard li a:before {
+    content: " ";
+    margin-left: -2px;
+    height: 34px;
+    width: 14px;
+    display: block;
+}
+
+.form-wizard li.complete a:before {
+    content: "\f00c";
+}
+
+.form-wizard li a span {
+    position: absolute;
+    color: #777777;
+    width: auto;
+    display: inline-block;
+    margin-left: -25px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    top: 40px;
+}
+
+.form-wizard li.complete a span {
+    padding-left: 5px;
+}

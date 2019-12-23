@@ -1,0 +1,7 @@
+{
+  "debug.console.fontSize": 16,
+    "workbench.settings.openDefaultKeybindings": true,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "npm.fetchOnlinePackageInfo": false,
+    "window.zoomLevel": null
+}
